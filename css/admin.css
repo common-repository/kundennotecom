@@ -1,0 +1,88 @@
+.knOptionsWrap {
+  background: #fff;
+  margin: 25px 15px 10px 15px;
+  max-width: 900px;
+}
+.knOptionsWrap .header {
+  background: #f5993f;
+  padding: 20px 30px 20px 30px;
+}
+.knOptionsWrap .content {
+  padding: 30px;
+}
+.knOptionsWrap .content h1 {
+  line-height: 1.3;
+}
+.knOptionsWrap .content .infobanner {
+  background: #5da0b2;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  display: block;
+  text-decoration: none;
+}
+.knOptionsWrap .content .infobanner:hover {
+  background: #4b8c9e;
+}
+.knOptionsWrap .content .infobox {
+  background: #fcf9e8;
+  padding: 10px;
+  border-radius: 4px;
+}
+.knOptionsWrap .content .noticebox {
+  background: #f0f6fc;
+  padding: 10px;
+  border-radius: 4px;
+}
+.knOptionsWrap .content hr {
+  border-top-color: #d5d7df;
+  border-bottom: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1.5em;
+}
+.knOptionsWrap .content p {
+  border-top-color: #d5d7df;
+  border-bottom: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1.5em;
+}
+.knOptionsWrap .content .col-wrap {
+  display: flex;
+}
+.knOptionsWrap .content .col-wrap .col {
+  width: 50%;
+}
+.knOptionsWrap .content .col-wrap .col:first-child {
+  margin-right: 30px;
+}
+.knOptionsWrap input.textfield, .knOptionsWrap textarea.textfield {
+  border: 1px solid #d5d7df;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 10px 5px 10px;
+}
+.knOptionsWrap p.submit {
+  text-align: right;
+}
+.knCopyright {
+  text-align: center;
+  font-size: 0.9em;
+  color: #b7b7b7;
+  margin-bottom: 25px;
+  max-width: 900px;
+}
+@media(max-width:767px) {
+  .knOptionsWrap {
+    margin: 25px 15px 25px 15px;
+  }
+  .knOptionsWrap .content .col-wrap {
+    display: block;
+  }
+  .knOptionsWrap .content .col-wrap .col {
+    width: 100%;
+  }
+  .knOptionsWrap .content .col-wrap .col:first-child {
+    margin-right: 0;
+  }
+}
